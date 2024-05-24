@@ -30,6 +30,12 @@ function setup() {
 	
 }
 
+function startGame() {
+	GameStatus = "start";
+	document.getElementById("status").innerHTML = "Game is loading";
+  
+  }
+
 function draw() {
 	game()
 	if (noseX < 300) {
